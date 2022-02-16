@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "npm run partytown && astro dev",
     "start": "npm run partytown && astro dev",
-    "build": "npm run partytown && npm run docs && astro build && npm info astro",
+    "build": "npm run partytown && npm run docs && astro build && npm ls astro",
     "preview": "astro preview",
     "docs": "node ./load-docs.mjs",
     "partytown": "partytown copylib public/~partytown"
